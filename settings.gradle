@@ -1,0 +1,1 @@
+include ':app', ':azure-mobile-android-3.4.0'

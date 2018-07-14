@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/ed"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Search by Tags or Title"
+        android:inputType="textPersonName"
+        />
+
+    <ImageButton
+        android:id="@+id/searchBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:src="@android:drawable/ic_search_category_default"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/post_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ctitle"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Example: rice, juice, mango"
+        android:textColor="@color/brand_color1"
+        android:textStyle="italic"
+        android:layout_marginEnd="61dp"
+        android:layout_below="@+id/searchBtn"
+        android:layout_alignEnd="@+id/ed"/>
+
+    <CheckBox
+        android:id="@+id/ctitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:layout_below="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7"/>
+
+    <CheckBox
+        android:id="@+id/ctags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:text="Tags"/>
+
+</RelativeLayout>

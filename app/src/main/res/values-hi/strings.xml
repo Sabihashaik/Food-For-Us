@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food4Us</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="pref_default_display_name">जॉन स्मिथ</string>
+    <string name="points_1">१,०२४ अंक</string>
+    <string name="person_name">जॉन स्मिथ</string>
+    <string name="email_hi">\"ईमेल आईडी : johnsmith@gmail.com\"</string>
+    <string name="donor_type">दाता प्रकार: व्यक्ति</string>
+    <string name="no_donation">दान की संख्या : ६</string>
+    <string name="phone_l">फ़ोन नंबर: +९७१ -- - - -- -- -- (+971 -- - - -- - -)</string>
+    <string name="popup_btn">अपने अंक बढ़ाने के लिए क्लिक करें</string>
+    <string name="u_post">पोस्ट अपलोड करें</string>
+    <string name="title_post">शीर्षक</string>
+    <string name="desc_post">भोजन वर्णन</string>
+    <string name="tags_Post">टैग</string>
+    <string name="loc_l">स्थान</string>
+    <string name="up_string">अपना पोस्ट अपलोड करें</string>
+    <string name="analyze_str">खाने का विश्लेषण करें</string>
+    <string name="pov">अंक और वाउचर</string>
+    <string name="pov_Desc">अपने पसंदीदा रेस्तरां से वाउचर के लिए अपने अंक एक्सचेंज करें! चयनित रेस्तरां पर 80% तक छूट पाएं</string>
+    <string name="vouch_1">ऐप्पल बईज में १०% की छूट</string>
+    <string name="vouch_2">जूस फौर अस में २०% की छूट</string>
+    <string name="vouch_3">५% की छूट आपके अगले भोजन पर…</string>
+    <string name="vouch_4">६०% की छूट! जल्दी लाभ ले!</string>
+</resources>
